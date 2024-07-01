@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Api Load Test">
+      <boolProp name="TestPlan.functional_mode">true</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;jmeterTestPlan&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;jmeterTestPlan&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;TestPlan&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;TestPlan&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;ThreadGroups&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;ThreadGroups&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;ThreadGroup&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;ThreadGroup&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;name&gt;Dog API Load Test&lt;/name&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;name&gt;Dog API Load Test&lt;/name&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;numThreads&gt;10&lt;/numThreads&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;numThreads&gt;10&lt;/numThreads&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;rampTime&gt;30&lt;/rampTime&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;rampTime&gt;30&lt;/rampTime&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;loopCount&gt;100&lt;/loopCount&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;loopCount&gt;100&lt;/loopCount&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;duration&gt;0&lt;/duration&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;duration&gt;0&lt;/duration&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;delay&gt;0&lt;/delay&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;delay&gt;0&lt;/delay&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/ThreadGroup&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/ThreadGroup&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/ThreadGroups&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/ThreadGroups&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;TestElements&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;TestElements&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;HTTPSamplerProxy&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;HTTPSamplerProxy&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;name&gt;Get Random Dog Image&lt;/name&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;name&gt;Get Random Dog Image&lt;/name&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;domain&gt;dog.ceo&lt;/domain&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;domain&gt;dog.ceo&lt;/domain&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;port&gt;80&lt;/port&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;port&gt;80&lt;/port&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;path&gt;/api/breeds/image/random&lt;/path&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;path&gt;/api/breeds/image/random&lt;/path&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;method&gt;GET&lt;/method&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;method&gt;GET&lt;/method&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/HTTPSamplerProxy&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/HTTPSamplerProxy&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;HTTPSamplerProxy&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;HTTPSamplerProxy&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;name&gt;Get All Breeds&lt;/name&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;name&gt;Get All Breeds&lt;/name&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;domain&gt;dog.ceo&lt;/domain&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;domain&gt;dog.ceo&lt;/domain&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;port&gt;80&lt;/port&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;port&gt;80&lt;/port&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;path&gt;/api/breeds/list/all&lt;/path&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;path&gt;/api/breeds/list/all&lt;/path&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;method&gt;GET&lt;/method&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;method&gt;GET&lt;/method&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/HTTPSamplerProxy&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/HTTPSamplerProxy&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/TestElements&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/TestElements&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;Listeners&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;Listeners&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;ViewResultsTree&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;ViewResultsTree&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;name&gt;View Results Tree&lt;/name&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;name&gt;View Results Tree&lt;/name&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/ViewResultsTree&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/ViewResultsTree&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;SummaryReport&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;SummaryReport&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;name&gt;Summary Report&lt;/name&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;name&gt;Summary Report&lt;/name&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/SummaryReport&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/SummaryReport&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/Listeners&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/Listeners&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/TestPlan&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/TestPlan&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/jmeterTestPlan&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/jmeterTestPlan&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath">/home/simona/Плот/apache-jmeter-5.6.3/bin/ApacheJMeter.jar</stringProp>
+    </TestPlan>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
