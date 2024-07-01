@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan>
+  <TestPlan>
+    <ThreadGroups>
+      <ThreadGroup>
+        <name>Dog API Load Test</name>
+        <numThreads>10</numThreads>
+        <rampTime>30</rampTime>
+        <loopCount>100</loopCount>
+        <duration>0</duration>
+        <delay>0</delay>
+      </ThreadGroup>
+    </ThreadGroups>
+    <TestElements>
+      <HTTPSamplerProxy>
+        <name>Get Random Dog Image</name>
+        <domain>dog.ceo</domain>
+        <port>80</port>
+        <path>/api/breeds/image/random</path>
+        <method>GET</method>
+      </HTTPSamplerProxy>
+      <HTTPSamplerProxy>
+        <name>Get All Breeds</name>
+        <domain>dog.ceo</domain>
+        <port>80</port>
+        <path>/api/breeds/list/all</path>
+        <method>GET</method>
+      </HTTPSamplerProxy>
+    </TestElements>
+    <Listeners>
+      <ViewResultsTree>
+        <name>View Results Tree</name>
+      </ViewResultsTree>
+      <SummaryReport>
+        <name>Summary Report</name>
+      </SummaryReport>
+    </Listeners>
+  </TestPlan>
+</jmeterTestPlan>
